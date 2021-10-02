@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id="@id/navigation_home"-->
+    <!--    android:icon="@drawable/ic_home"-->
+    <!--    android:title="Home"/>-->
+    <item android:id="@+id/navigation_whatsapp"
+        android:icon="@drawable/whatsapp"
+        android:title="WhatsApp"/>
+    <item android:id="@+id/navigation_instagram"
+        android:icon="@drawable/instagram"
+        android:title="Instagram"/>
+    <!--<item android:id="@id/navigation_gallery"-->
+    <!--    android:icon="@drawable/ic_gallery"-->
+    <!--    android:title="Gallery"/>-->
+    <item android:id="@+id/navigation_about"
+        android:icon="@drawable/ic_about"
+        android:title="About"/>
+</menu>

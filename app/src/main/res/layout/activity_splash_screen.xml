@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.shubhjitiya.SplashScreen"
+android:background="#F6F4F4"
+    >
+
+<ImageView
+    android:id="@+id/loaderImage"
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:src="@mipmap/ic_launcher_round"
+    android:elevation="5dp"
+    android:layout_centerInParent="true"/>
+
+<TextView
+    android:id="@+id/txtAppName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="WhatsInsta Saver"
+    android:textSize="21sp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/loaderImage"
+    android:textStyle="bold"
+    android:fontFamily="@font/lato_regular"
+    />
+
+<TextView
+    android:id="@+id/developer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Developed by Shubham Jitiya"
+    android:textSize="10sp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="160dp"
+    android:layout_marginTop="5dp"
+    android:layout_below="@id/txtAppName"
+    android:fontFamily="@font/poppins_regular"
+    />
+
+</RelativeLayout>
